@@ -4,8 +4,8 @@ let computers = document.getElementById('computer')
 let scores = document.getElementById('score')
 function playerGame (playerChoice){
     let computerchoice = computerGame()
-    players .innerText = `Your Choice : ${playerChoice}`
-    computers.innerText=`Computer choice: ${computerchoice}`
+    players .innerText = `👨 : ${playerChoice}`
+    computers.innerText=`💻: ${computerchoice}`
     scores.innerText = score(playerChoice,computerchoice)
 }
 
