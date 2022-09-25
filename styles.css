@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates&display=swap');
+h1{
+    text-align: center;
+    padding: 5%;
+    color: #ffff;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-weight: 600;
+}
+i{
+    color: #FFC23C;
+    font-size: 1.5rem;
+}
+main{
+    position: absolute;
+    top:50%;
+    left: 50%;
+     text-align: center;
+    transform: translate(-50%,-50%);
+    white-space: nowrap;
+}
+#body{
+    background-color: #181818;
+    font-family: 'Montserrat Alternates', sans-serif;}
+.rpsButton,#end{
+    width: 80px;
+    height: 80px;
+    border-radius: 15px;
+    border: #181818;
+}
+.buttons button{
+  margin: 20px 5px;
+  background-color: #80558C;
+}
+.result div{
+    color: #ffff;
+    padding: 3%;
+    color: #F5C7A9;
+}
+.result{
+    padding: 4%;
+}
